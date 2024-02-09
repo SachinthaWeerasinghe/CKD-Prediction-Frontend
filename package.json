@@ -3,9 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "engines": {
-    "node": ">=20" 
-  },
+  "proxy": "https://ckd-risk-prediction-backend-python.azurewebsites.net",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
