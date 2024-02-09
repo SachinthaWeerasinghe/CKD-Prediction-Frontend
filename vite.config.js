@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
    server: {
-      port:8080,
       proxy: {
         '/user': 'https://ckd-risk-prediction-backend-python.azurewebsites.net',
       },
